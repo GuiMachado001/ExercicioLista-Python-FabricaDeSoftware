@@ -4,3 +4,9 @@
 
 num = float(input("Digite o um numero: "))
 
+if(num > 0):
+    result = num * 0.5
+
+    print(f"A raiz quadrada de {num} é {result}")
+else:
+    print("Seu número é inválido")

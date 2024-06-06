@@ -110,16 +110,16 @@ opcao = True
 while(opcao):
 
     print(sep)
-    taxaGarcom = int(input(f"Aceita pagar a gorjeta do garçom referente a 10% sobre o valor dos pratos? \n1 - Não \n2 - Sim \n"))
+    taxaGarcom = int(input(f"Aceita pagar a gorjeta do garçom referente a 10% sobre o valor dos pratos? \n1 - Sim \n2 - Não \n"))
     print(sep)
 
-    if(taxaGarcom == 1):
+    if(taxaGarcom == 2):
         TotalSemTaxa = sum(pedidoAtual)
         print(f"O valor Total do pedido Sem a taxa do garçom ficou em: R${TotalSemTaxa:.2f}")
         print(sep)
         opcao = False
 
-    elif(taxaGarcom == 2):
+    elif(taxaGarcom == 1):
         TotalComTaxa = sum(pedidoAtual) * 1.10
         print(f"O valor Total do pedido com a taxa do garçom ficou em: R${TotalComTaxa:.2f}")
         print(sep)

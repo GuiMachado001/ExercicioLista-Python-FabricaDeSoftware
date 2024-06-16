@@ -2,37 +2,23 @@
 # • a soma dos números pares desse intervalo de números, incluindo os números digitados;
 # • a multiplicação dos números ímpares desse intervalo, incluindo os digitados;
 
-num1 = int(input("Digite um numero inteir: "))
-num2 = int(input("Digite outro numero inteir: "))
+num1 = int(input("Digite um numero inteiro: "))
+num2 = int(input("Digite outro numero inteiro: "))
 
-i1 = num1
-i2 = num2
+menor = min(num1, num2)
+maior = max(num1, num2)
 
-listaPar = []
-listaImpar = []
+contador = maior
 
-if(num1 >= num2):
-    while(i1 >= i2):
-        if(i1 % 2 == 0):
-            listaPar.append(i1)
-            i1 -= 1
-        else:
-            listaImpar.append(i1)
-else:
-    while(i2 >= i1):
-        if(i2 % 2 == 0):
-            listaPar.append(i2)
-            i2 -= 1
-        else:
-            listaImpar.append(i2)
+par = 0
+impar = 0
 
-for i in listaPar: 
-    soma = listaPar[i]
+while(contador >= menor):
+    if(contador %2 == 0):
+        par += 1
+    else:
+        impar +=1
+    contador -=1
 
-for i in listaImpar:
-    mult = listaImpar[i]
-
-print(soma)
-print(mult)
-print(listaImpar)
-print(listaPar)
+print("Quantidade de números pares:", par)
+print("Quantidade de números ímpares:", impar)

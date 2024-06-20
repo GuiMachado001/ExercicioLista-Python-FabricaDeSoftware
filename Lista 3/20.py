@@ -11,10 +11,12 @@ while(flag):
     num = int(input("Digite um numero inteiro ou digite '0' para sair: "))
 
     if(num % 2 == 0 and num != 0):
+        print("É par")
         parLista.append(num)
         contPar += 1
         contLido += 1
     elif(num % 2 != 0 and num != 0):
+        print("É impar")
         contLido += 1
     elif(num == 0):
         print(f"Quantidade de numeros lidos: {contLido} \nQuantidade de numeros Pares: {contPar}")

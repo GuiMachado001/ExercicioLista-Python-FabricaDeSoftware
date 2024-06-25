@@ -3,7 +3,7 @@
 
 lista = []
 while(True):
-    num = int(input("Digite um numero inteiro ou um numero negativo para finalizar"))
+    num = int(input("Digite um numero inteiro ou um numero negativo para finalizar: "))
 
     lista.append(num)
 

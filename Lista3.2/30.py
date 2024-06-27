@@ -9,5 +9,4 @@ while(True):
 
     if(num < 0):
         break
-
 print(f"Maior numero {max(lista)} \nMenor numero {min(lista)}")

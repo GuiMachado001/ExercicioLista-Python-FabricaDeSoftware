@@ -3,7 +3,7 @@
 
 flag = True
 i = 0
-lista = []
+
 while(flag):
     num = int(input(("Digite um numero entre 100 e 9999: ")))
 

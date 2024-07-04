@@ -54,7 +54,7 @@ while(True):
         break
 
     else:
-        print("Opção inválida")
+        print("Opção inválida\n")
 
 print(f"Votos para o candidato 1: {sum(candidato1)}")
 print(f"Votos para o candidato 2: {sum(candidato2)}")

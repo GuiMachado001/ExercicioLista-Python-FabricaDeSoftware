@@ -78,7 +78,7 @@ mediaAluno10 = sum(aluno10) / len(aluno10)
 medias = []
 medias.append(mediaAluno1, mediaAluno2, mediaAluno3, mediaAluno4, mediaAluno5, mediaAluno6, mediaAluno7, mediaAluno8, mediaAluno9, mediaAluno10)
 
-print(f"A media de cada aluno é \nAluno 1: {mediaAluno1} \nAluno 2: {mediaAluno2} \nAluno 3: {mediaAluno3} \nAluno 4: {mediaAluno4} \nAluno 5: {mediaAluno5} \nAluno 6: {mediaAluno6} \nAluno 7: {mediaAluno7} \nAluno 8: {mediaAluno8} \nAluno 8: {mediaAluno8} \nAluno 10: {mediaAluno10} " end=',')
+print(f"A media de cada aluno é \nAluno 1: {mediaAluno1} \nAluno 2: {mediaAluno2} \nAluno 3: {mediaAluno3} \nAluno 4: {mediaAluno4} \nAluno 5: {mediaAluno5} \nAluno 6: {mediaAluno6} \nAluno 7: {mediaAluno7} \nAluno 8: {mediaAluno8} \nAluno 8: {mediaAluno8} \nAluno 10: {mediaAluno10} ", end=',')
 
 i = 0
 cont = 0

@@ -5,10 +5,13 @@
 i = 0
 lista = []
 while(i < 5):
-    num = int(input("Digite um numero: "))
-    lista.append(num)
-    i+=1
-
+    try:
+        num = int(input("Digite um numero: "))
+        lista.append(num)
+        i+=1
+    except:
+        print("Entrada inválida, Digite novamente")
+  
 print(f"A soma dos valores digitados é: {sum(lista)}")
 
 

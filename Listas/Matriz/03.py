@@ -5,6 +5,7 @@ matriz = [[1,2,3,],
 
 novaMatriz = []
 
+
 i = 0
 z = 0
 while(i < len(matriz)):

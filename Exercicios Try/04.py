@@ -7,9 +7,7 @@ while(True):
         num = int(input("Digite um numero inteiro: "))
 
         quadrado = num*2
-
         cubo = num*3
-
         raiz = num ** 2
 
         print(f"Quadrado: {quadrado} \nCubo: {cubo} \nRaiz: {raiz}")

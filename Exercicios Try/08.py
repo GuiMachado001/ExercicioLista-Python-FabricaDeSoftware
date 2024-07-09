@@ -16,6 +16,7 @@ while(i < 10):
             i+=1
     except:
         print("Entrada inválida, Digite novamente")
+        
 media = sum(lista) / 10
 
 print(media)

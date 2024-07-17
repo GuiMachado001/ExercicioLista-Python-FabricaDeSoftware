@@ -21,7 +21,12 @@ while(i < len(matriz)):
     i+=1
     z+=1
 
-i = 0
+
+
+
+
+
+
 x=0
 print("Matriz antiga")
 while (x < len(matriz)):

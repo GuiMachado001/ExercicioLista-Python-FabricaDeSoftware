@@ -36,4 +36,6 @@ print(somar(25,25))
 if (somar(50,51) > 100):
     print("Soma maior que 100")
 
+
+
 print(verificaIdade(22))

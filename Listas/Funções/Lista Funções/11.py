@@ -3,7 +3,6 @@
 # realizada uma adição, se for − uma subtração, se for / uma divisão e se for ∗ será efetuada uma
 # multiplicação.
 
-
 operacao = input("Digite a operação (Ex: 2+2): ")
 
 if(operacao == '+'):

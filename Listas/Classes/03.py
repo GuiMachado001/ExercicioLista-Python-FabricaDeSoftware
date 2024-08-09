@@ -39,11 +39,11 @@ class Aluno:
     def situacaoAluno(self):
         situacao = (self.nota1 + self.nota2 + self.nota3 + self.nota4) / 4
         if(situacao >= 7):
-            print("O aluno se encontra Aprovado!")
+            print(f"Media: {situacao} O aluno se encontra Aprovado!")
         elif(situacao >= 5 and situacao <= 6.9):
-            print("O aluno se encontra de Exame!")
+            print(f"Media: {situacao} O aluno se encontra de Exame!")
         elif(situacao <5):
-            print("O aluno se encontra Reprovado!")
+            print(f"Media: {situacao} O aluno se encontra Reprovado!")
 
     def alterarNota(self, novaNota1, novaNota2, novaNota3, novaNota4):
         self.nota1 = novaNota1

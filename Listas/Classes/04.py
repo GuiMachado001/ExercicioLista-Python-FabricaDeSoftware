@@ -33,7 +33,7 @@ class Conta:
     
     
     def setDepositar(deposito):
-        listaConta[index].conta += deposito
+        listaConta[index].saldo += deposito
         print("\nDepósito realizado com sucesso !!")
 
     def setSacar(self, saque):
